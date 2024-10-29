@@ -29,7 +29,7 @@ const AudioUploader = () => {
         <div className="container">
             <h1>Audio to Text Transcriber</h1>
             <div className="file-input">
-                <input type="file" accept="audio/*" onChange={handleFileChange}/>
+                <input type="file" accept="audio/*" style={{color: 'black'}} onChange={handleFileChange}/>
             </div>
             <button className="upload-button" onClick={handleUpload}>Upload and Transcribe</button>
             <div className="transcription-result">
